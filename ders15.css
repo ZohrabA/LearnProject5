@@ -1,0 +1,754 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+ .flex{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+
+    .around{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;}
+
+    .between{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;}
+
+        .header{
+            width: 100%;
+         background-color: #F2F2F2;   
+       position: fixed;
+       top: 0px;
+       height: 70px;
+       padding: 0 20px;
+       z-index: 1;
+        }
+        .head-two{
+            width:275px;
+            height: 55px;
+        }
+        .head-two img{
+            padding: 9px;
+            width: 55px;
+            height: 55px;
+            vertical-align: middle;
+        }
+        .head-one img{
+            width: 123px;
+            height: 40px;
+            cursor: pointer;
+        }
+        .head-three img{
+            width: 30px;
+            height: 30px;
+            padding: 4px;
+        }
+        .head-two img:hover{
+            background-color: #C9E4F9;
+        }
+        .head-three img:hover{
+            background-color: #C9E4F9;
+        }
+
+        .first{
+            width: 100%;
+        height: 627px;
+        background-image: url(./pexels-photo-1229087.jpeg);
+        background-size: 100%
+        }
+            .first h1{
+                color: white;
+                font-size: 50px;
+            }
+            .first button{
+                background-color: transparent;
+                color: white;
+                width: 400px;
+                height: 50px;
+                border: 3px solid white;
+                transition: .5s;
+                margin-top: 20px;
+            }
+        .first button:hover{
+            background-color: black;
+        }
+
+        .sea{
+            width: 100%;
+            padding: 80px 100px;
+            background-color: #B2CECD;
+            text-align: center;
+        }
+        
+        
+        .sea h5 {
+            color: black;
+            font-weight: 200;
+        }
+        .sea span{
+            font-size: 40px;
+          letter-spacing: 4px;
+        }
+
+        .black{
+            width: 100%;
+            height: 777px;
+            background-color: black;
+        }
+        .black-word{
+            width: 50%;
+        }
+        .black-img{
+            width: 50%;
+        }
+        .black-word img{
+            width: 445px;
+            height: 462px;
+        }
+        .black-img img{
+            width: 631px;
+            height: 777px;
+        }
+        .black-word span{
+            text-align: left;
+            color: white;
+            padding: 20px 60px 0 20px ;
+        }
+
+.black-two{
+    width: 100%;
+    height: 632px;
+}
+.black-black{
+    width: 50%;
+    height: 632px;
+    background-color: black;
+}
+.black-black-one{
+    padding-right: 90px;
+    width: 100%;
+    height: 50%;
+    color: white;
+    font-size: 70px;
+}
+.black-black-two{
+    width: 100%;
+    height: 50%;
+}
+.two-img{
+    width: 50%;
+    height: 100%;
+}
+.two-word{
+    color: white;
+    padding: 20px 30px 0 10px;
+    text-align: left;
+    width: 50%;
+    height: 100%;
+}
+.two-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.black-sea{
+    width: 50%;
+    height: 632px;
+    background-color: #B2CECD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.black-sea span{
+    margin-top: 20px;
+    width: 276px;
+    margin-right: 200px;
+    height: 76px;
+}
+.black-sea img{
+    margin-top: 40px;
+    width: 396px;
+    height: 452px;
+}
+
+.black-three{
+    width: 100%;
+    height: 561px;
+    background-image: url(./pexels-photo-3356833.jpeg);
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+.black-three span{
+    width: 540px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    font-size: 75px;
+    margin-right: 50px;
+}
+.black-three a{
+    color: white;
+    margin-right: 280px;
+}
+
+.sea-two{
+    padding: 0 30px 0 0;
+width: 100%;
+height: 257px;
+background-color: #B2CECD;
+}
+.span-word-one{
+    width: 50%;
+    padding-right: 100px;
+    font-size: 80px;
+    font-weight: 200;
+    text-align: center;
+    color: black;
+}
+
+.span-word-two{
+    width: 30%;
+    text-align: left;
+    color: #404040;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.span-word-two a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: #404040;
+    border-bottom: 2px solid #404040;
+    cursor: pointer;
+}
+.picture{
+    width: 100%;
+    height: 375px;
+}
+.pic{
+    width: 25%;
+    height: 375px;
+    position: relative;
+}
+.pic img{
+    width: 371px;
+    height: 100%;
+}
+
+.pic::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    background-color: black;
+    opacity: 0%;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+.pic:hover::before{
+    opacity: 50%;
+}
+
+.picture-two {
+    width: 100%;
+    height: 627px;
+    display: flex;
+    flex-direction: row;
+}
+
+.picture-two-one{
+    width: 60%;
+    height: 100%;
+    background-image: url(./pexels-photo-3449090.jpeg);
+    background-size: 150%;
+    background-position: top left;
+}
+
+.picture-two-two{
+    width: 40%;
+    height: 100%;
+    background-image: url(./pexels-photo-4450352.jpeg);
+    background-size: 80% 100%;
+     background-color: black;
+     background-repeat: no-repeat;
+}
+.pic-word{
+    padding: 30px 0 0 60px;
+    width: 100%;
+    height: 70%;
+    color: white;
+    font-size: 70px;
+letter-spacing: 5px;
+    font-weight: 300;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.pic-wordd{
+    width: 100%;
+    color: white;
+    text-align: left;
+    height: 40%;
+    padding-left: 60px;
+    margin-top: 90px;
+}
+
+.sea-end{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #B2CECD;
+}
+.sea-end-one{
+    color: black;
+    width: 60%;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 150px;
+    margin: 100px 0 0 100px;
+}
+.sea-end-one h1{
+    margin-bottom: 20px;
+    font-size: 70px;
+    letter-spacing: 5px;
+}
+
+.sea-end-two{
+    width: 70%;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+.good{
+    display: flex;
+    flex-direction: row;
+   
+    }
+.sea-end-two textarea{
+    width: 835px;
+    height: 121px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.sea-end-two label{
+    color: white;
+}
+.sea-end-two button{
+    background-color: #B2CECD;
+    width: 120px;
+    height: 50px;
+    border: 2px solid  white;
+    color: white;
+    margin-top: 10px;
+}
+#reg{
+    width: 835px;
+    height: 46px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+#regg{
+    width: 835px;
+    height: 46px;
+    padding-left: 10px;
+     margin-top: 20px;
+}
+#reggg{
+    width: 400px;
+    height: 48px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+#regggg{
+    margin-top: 20px;
+    width: 400px;
+    padding-left: 10px;
+    height: 48px;
+}
+
+.end{
+    width: 100%;
+    height: 230px;
+    background-color: #333333;
+}
+
+.end span{
+    color: white;
+    width: 440px;
+    text-align: center;
+}
+.end a{
+    color: darkcyan;
+    margin: 0 10px;
+}
+.gol{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+        @media only screen and (max-width:600px){
+            .head-two{
+                width: 0;
+                height: 0;
+            }
+            .head-three{
+                width: 0;
+                height: 0;
+            }
+        
+        .head-three img{
+            width: 0px;
+            height: 0px;
+            padding:0px;
+        }
+            .first button{
+                width: 200px;
+            }
+            .first{
+                width: 100%;
+            height: 300px;}
+            .sea{
+                width: 100%;
+                height: 400px;
+                padding: 0;
+            }
+            .sea span{
+                font-size: 20px;
+                padding: 20px 20px; 
+            }
+    .sea h5{
+        font-weight: 10px;
+    }
+    .black{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .black-word span{
+        width: 100%;
+        padding: 20px 10px;
+    }
+    .black-word img{
+        width: 100%;
+        height: 300px;
+    }
+    .black-word{
+              width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .black-img{
+        width: 100%;
+    }
+    .black-img img{
+        width: 100%;
+        height: 300px;
+    }
+
+
+
+
+
+    .black-two{
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .black-black{
+        width: 100%;
+        height: 100%;
+       
+    }
+    .black-black-one{
+        padding: 20px;
+        width: 100%;
+        height: 50%;
+        color: white;
+        font-size: 40px;
+    }
+    .black-black-two{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;}
+
+    .two-img{
+        width: 100%;
+        height: 100%;
+    }
+    .two-word{
+        padding: 20px 0px 20px 20px;
+        text-align: left;
+        width: 100%;
+        height: 100%;
+    }
+    .two-img img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .black-sea{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .black-sea span{
+       padding: 10px;
+        width: 100%;
+        text-align: left;
+        height: 76px;
+        margin: 0;
+    }
+    .black-sea img{
+        margin: 20px 0 0 0px;
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+    .black-three{
+        width: 100%;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    .black-three span{
+        width: 100%;
+        height: 60px;
+        font-weight: 400;
+        color: white;
+        text-align: center;
+        font-size: 35px;
+        padding: 20px;
+        margin: 0;
+    }
+    .black-three a{
+        
+        margin: 0;
+        padding: 20px;
+    }
+    
+
+
+
+    .sea-two{
+        padding: 0;
+        margin: 0;
+    width: 100%;
+    height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    }
+    .span-word-one{
+        width: 100%;
+        padding: 0px;
+        font-size: 30px;
+        font-weight: 200;
+        margin: 0;
+    }
+    
+    .span-word-two{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        padding-left: 10px;
+    }
+    
+    .span-word-two a{
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+
+    .picture{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .pic{
+        padding: 0;
+        width: 100%;
+        height: 375px;
+        position: relative;
+    }
+    .pic img{
+        width: 375px;
+        height: 100%;
+    }
+    
+
+    .picture-two {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .picture-two-one{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .picture-two-two{
+        width: 100%;
+        height: 400px;
+        background-size: 100% 100%;
+    }
+    
+    .pic-wordd{
+        width: 100%;
+       padding: 20px;
+    }
+    
+    .sea-end{
+        width: 100%;
+        padding: 20px;
+    }
+    .sea-end-one{
+      
+        width: 100%;
+        flex-direction: column;
+        height: 150px;
+        margin: 0px 0 0 0px;
+    }
+    .sea-end-one h1{
+        margin-bottom: 20px;
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+    
+    .sea-end-two{
+        width: 100%;
+        margin-left: 0px;
+      
+        }
+    .good{
+        display: flex;
+        flex-direction: row;
+       
+        }
+    .sea-end-two textarea{
+        width: 100%;
+        height: 121px;
+        padding-left: 0px;
+        margin-top: 10px;
+    }
+    
+    .sea-end-two button{
+       
+        width: 80px;
+        height: 30px;
+        margin-top: 10px;
+    }
+    #reg{
+        width: 100%;
+        height: 23px;
+        padding-left: 0px;
+        margin-top: 10px;
+    }
+    #regg{
+        width: 100%;
+        height: 23px;
+        padding-left: 0px;
+        margin-top: 10px;
+    }
+    #reggg{
+        width: 100%;
+        height: 23px;
+        padding-left: 0px;
+        margin-top: 10px;
+    }
+    #regggg{
+        width: 100%;
+        height: 23px;
+        padding-left: 0px;
+        margin-top: 10px;
+    }
+
+    .end{
+        width: 100%;
+        height: 230px;
+      
+    }
+    
+    .end span{
+        width: 100%;
+      
+    }
+    .end a{
+        margin: 0px;
+    }
+    .gol{
+        margin-top: 60px;
+        font-size: 13px;
+        display: flex;
+        justify-content: space-around;
+    
+    }
+
+    
+        }
